@@ -1,0 +1,66 @@
+html {
+    font-family: calibri, arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#00377b, #0073ff);
+    color: #fff;
+}
+
+.titulos {
+    background-color: rgb(0, 22, 60);
+    padding: 40px 50px;
+    border-radius: 20px;
+    text-align: center;
+    height: 75%;
+    width: 90%;
+    max-width: 850px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+    padding-bottom: 25px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 80%;
+    max-width: 350px;
+    color: #fff;
+    background-color: rgb(0, 22, 60);
+    border: #fff solid 2px;
+
+}
+
+.apk a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.apk a:hover {
+  background-color: transparent;
+  transform: scale(1.05);
+}
+
+.aviso {
+  margin-top: 20px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
